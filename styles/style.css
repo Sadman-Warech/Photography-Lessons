@@ -273,14 +273,21 @@ li:hover i {
                                         for mobile and pads                                                           
 - =-------------------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 668px) {
-    main {
-        width: 100%;
+@media only screen and (min-width: 300px) and (max-width: 668px) {
+    header h1 {
+        padding-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
 
@@ -304,9 +311,15 @@ li:hover i {
         margin-left: 0px;
     }
 
+    .container {
+        width: 100%;
+    }
+
     .king {
+        width: 100%;
         display: flex;
         flex-direction: column;
+        padding-bottom: 20px;
     }
 
     .items {
@@ -315,11 +328,37 @@ li:hover i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0px;
+    }
+
+    .item {
+        width: 80%;
     }
 
     .container2 {
         width: 100%;
     }
+
+    .extra1 {
+        width: auto;
+        height: auto;
+    }
+
+    .extra {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .img {
+        height: auto;
+        width: 320px;
+    }
+
 
     .foot {
         width: 100%;
